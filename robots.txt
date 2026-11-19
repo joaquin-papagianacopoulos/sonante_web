@@ -17,4 +17,4 @@ Allow: /
 User-agent: Google-Extended
 Allow: /
 
-Sitemap: https://sonante.netlify.app/sitemap.xml
+Sitemap: https://sonantemp.com/sitemap.xml

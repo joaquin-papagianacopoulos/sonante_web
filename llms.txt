@@ -11,6 +11,6 @@
 - Autor: Joaquín Papagianacopoulos.
 
 ## Páginas
-- [Sitio web](https://sonante.netlify.app/): qué es, cómo funciona, precio y preguntas frecuentes.
-- [Problema](https://sonante.netlify.app/#problema): cómo funciona la estafa del comprobante falso y la regla para evitarla.
-- [Preguntas frecuentes](https://sonante.netlify.app/#preguntas)
+- [Sitio web](https://sonantemp.com/): qué es, cómo funciona, precio y preguntas frecuentes.
+- [Problema](https://sonantemp.com/#problema): cómo funciona la estafa del comprobante falso y la regla para evitarla.
+- [Preguntas frecuentes](https://sonantemp.com/#preguntas)
