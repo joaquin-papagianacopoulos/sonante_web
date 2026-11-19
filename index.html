@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Sonante: evitá transferencias falsas con aviso por voz</title>
-<meta name="description" content="Sonante anuncia por voz, desde la PC de tu local, cada cobro que entra a tu Mercado Pago. Evitá transferencias y comprobantes falsos. Licencia anual.">
+<meta name="description" content="Sonante anuncia por voz cada cobro que entra a tu Mercado Pago, en tu PC y ahora también en Android. Evitá transferencias y comprobantes falsos. Licencia anual.">
 <link rel="canonical" href="https://sonantemp.com/">
 <meta name="theme-color" content="#0e1411">
 <meta property="og:type" content="website">
@@ -25,9 +25,9 @@
       "@id": "https://sonantemp.com/#software",
       "name": "Sonante",
       "url": "https://sonantemp.com/",
-      "description": "Aplicación para Windows que anuncia por voz, desde la computadora del local, cada cobro que entra a la cuenta de Mercado Pago del comerciante, para evitar estafas con transferencias y comprobantes falsos.",
+      "description": "Aplicación para Windows y Android que anuncia por voz, desde la computadora o el celular del comerciante, cada cobro que entra a la cuenta de Mercado Pago del comerciante, para evitar estafas con transferencias y comprobantes falsos.",
       "applicationCategory": "BusinessApplication",
-      "operatingSystem": "Windows",
+      "operatingSystem": ["Windows", "Android"],
       "inLanguage": "es-AR",
       "offers": {
         "@type": "Offer",
@@ -54,8 +54,13 @@
         },
         {
           "@type": "Question",
+          "name": "¿Sonante tiene app para Android?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Sí. Sonante ahora también tiene app para Android, además de la versión para PC con Windows. Escribinos por WhatsApp y te contamos cómo instalarla y conectarla a tu cuenta de Mercado Pago." }
+        },
+        {
+          "@type": "Question",
           "name": "¿Necesito tener el celular a mano?",
-          "acceptedAnswer": { "@type": "Answer", "text": "No. Sonante corre en la PC del local, así que no importa si el teléfono está lejos, sin batería o sin señal." }
+          "acceptedAnswer": { "@type": "Answer", "text": "No para la versión de PC: corre en la computadora del local, así que no importa si el teléfono está lejos, sin batería o sin señal. Si preferís usarlo en el celular, ahora también hay app para Android." }
         },
         {
           "@type": "Question",
@@ -104,6 +109,8 @@
   .eyebrow{font-size:.8rem;text-transform:uppercase;letter-spacing:.14em;font-weight:700;color:var(--lime)}
 
   /* header */
+  .announce{background:var(--lime);color:var(--ink);text-align:center;font-size:.92rem;font-weight:600;padding:.55rem 4%}
+  .announce a{color:var(--ink);text-underline-offset:3px;font-weight:800}
   header{background:var(--ink);color:#fff;position:sticky;top:0;z-index:20;border-bottom:1px solid rgba(255,255,255,.08)}
   header .wrap{display:flex;align-items:center;justify-content:space-between;padding:.8rem 0}
   .logo{display:flex;align-items:center;gap:.6rem;font-family:var(--serif);font-size:1.4rem;font-weight:700;text-decoration:none}
@@ -237,6 +244,7 @@
 </head>
 <body>
 
+<div class="announce">🆕 Novedad: Sonante ahora también tiene <b>app para Android</b>. <a href="https://wa.me/5491164703346?text=Hola!%20Quiero%20info%20sobre%20la%20app%20de%20Sonante%20para%20Android" target="_blank" rel="noopener">Consultá por WhatsApp</a></div>
 <header>
   <div class="wrap">
     <a href="#" class="logo" aria-label="Sonante, inicio"><span class="bars" aria-hidden="true"><i></i><i></i><i></i><i></i></span>Sonante</a>
@@ -258,6 +266,7 @@
       </div>
       <ul class="trust">
         <li>Un solo pago por año</li>
+        <li>Para PC con Windows y ahora también Android</li>
         <li>Instalación asistida</li>
         <li>Sin hardware nuevo</li>
       </ul>
@@ -324,6 +333,7 @@
       <li><strong>Arranque automático con Windows</strong><span>No hay que abrirlo ni acordarse. Prendés la PC y ya está escuchando.</span></li>
       <li><strong>No depende de tu celular</strong><span>Corre en la PC del local: no importa si el teléfono está lejos, sin batería o sin señal.</span></li>
       <li><strong>Monto exacto, en voz alta</strong><span>Nada de mirar pantallas mientras atendés: lo escuchás y seguís trabajando.</span></li>
+      <li><strong>🆕 Ahora también en Android</strong><span>Sonante ya tiene app para Android. <a href="https://wa.me/5491164703346?text=Hola!%20Quiero%20info%20sobre%20la%20app%20de%20Sonante%20para%20Android" target="_blank" rel="noopener">Consultanos por WhatsApp</a> y te contamos cómo conectarla a tu cuenta de Mercado Pago.</span></li>
       <li><strong>Instalación asistida</strong><span>Te ayudo a configurarlo la primera vez para que quede andando ya mismo.</span></li>
     </ul>
     <p class="needs"><b>Qué necesita para funcionar:</b> una PC o notebook con Windows, prendida y con internet, y parlantes. Si el cliente muestra un comprobante y no suena el aviso, la regla es esperar y verificar en tu app.</p>
@@ -349,6 +359,7 @@
       </ul>
       <a class="btn btn-primary js-wa" href="https://wa.me/5491164703346?text=Hola!%20Quiero%20comprar%20la%20licencia%20anual%20de%20Sonante" target="_blank" rel="noopener" data-msg="Hola! Quiero comprar la licencia anual de Sonante">Quiero instalarlo por WhatsApp</a>
     </div>
+    <p class="roi" style="margin:1.6rem 0 0">¿Preferís usarlo en el celular? Sonante también tiene <b>app para Android</b>. <a href="https://wa.me/5491164703346?text=Hola!%20Quiero%20info%20sobre%20la%20app%20de%20Sonante%20para%20Android" target="_blank" rel="noopener" style="font-weight:700">Consultanos por WhatsApp</a>.</p>
   </div>
 </section>
 
@@ -359,7 +370,8 @@
     <div class="faq">
       <details><summary>¿Sirve contra la app falsa de Mercado Pago?</summary><p>Sí, ese es su objetivo. La app falsa simula una transferencia o un pago por QR y muestra un comprobante, pero la plata nunca entra. Sonante anuncia solo los cobros que realmente ingresan a tu cuenta, así que si el cliente muestra un comprobante y no escuchás el aviso, esperá antes de entregar.</p></details>
       <details><summary>¿Qué hago si el cliente dice que ya pagó y Sonante no avisó?</summary><p>No entregues todavía. Esperá unos segundos y, si sigue sin avisar, verificá el movimiento en tu app oficial de Mercado Pago. Un comprobante en la pantalla del cliente no prueba que la plata haya llegado.</p></details>
-      <details><summary>¿Necesito tener el celular a mano?</summary><p>No. Sonante corre en la PC del local, así que no importa si el teléfono está lejos, sin batería o sin señal.</p></details>
+      <details><summary>¿Sonante tiene app para Android?</summary><p>Sí. Sonante ahora también tiene app para Android, además de la versión para PC con Windows. Escribinos por WhatsApp y te contamos cómo instalarla y conectarla a tu cuenta de Mercado Pago.</p></details>
+      <details><summary>¿Necesito tener el celular a mano?</summary><p>No para la versión de PC: corre en la computadora del local, así que no importa si el teléfono está lejos, sin batería o sin señal. Si preferís usarlo en el celular, ahora también hay app para Android.</p></details>
       <details><summary>¿Qué necesita para funcionar?</summary><p>Una computadora o notebook con Windows, prendida y con internet, y parlantes. Se instala una sola vez y arranca solo cada vez que prendés la PC. No requiere hardware nuevo.</p></details>
       <details><summary>¿Es un producto oficial de Mercado Pago?</summary><p>No. Sonante es un desarrollo independiente que funciona con cuentas de Mercado Pago y no está afiliado a Mercado Pago ni a Mercado Libre.</p></details>
       <details><summary>¿Cuánto cuesta?</summary><p>La licencia cuesta $150.000 ARS por año, con un solo pago anual y sin mensualidades. Incluye la instalación en la PC de tu local, manual paso a paso y soporte por videollamada para la instalación.</p></details>

@@ -20,6 +20,8 @@ a:focus-visible,.btn:focus-visible{outline:3px solid var(--lime);outline-offset:
 .btn-primary:hover{background:#c9f765}
 .btn-ghost{border-color:rgba(255,255,255,.35);color:#fff}
 
+.announce{background:var(--lime);color:var(--ink);text-align:center;font-size:.92rem;font-weight:600;padding:.55rem 4%}
+.announce a{color:var(--ink);text-underline-offset:3px;font-weight:800}
 /* header */
 header{background:var(--ink);color:#fff;position:sticky;top:0;z-index:20;border-bottom:1px solid rgba(255,255,255,.08)}
 header .wrap{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:.8rem 0}

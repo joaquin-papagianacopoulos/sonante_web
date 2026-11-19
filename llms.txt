@@ -1,11 +1,12 @@
 # Sonante
 
-> Sonante es una aplicación para Windows que anuncia por voz, desde la computadora del local, cada cobro que entra a la cuenta de Mercado Pago del comerciante. Sirve para evitar estafas con transferencias y comprobantes falsos (por ejemplo, las apps que imitan a Mercado Pago): si la plata entró de verdad, el comerciante la escucha, y si no suena el aviso, no entrega la mercadería hasta verificar.
+> Sonante es una aplicación para Windows y Android que anuncia por voz, desde la computadora o el celular del comerciante, cada cobro que entra a la cuenta de Mercado Pago del comerciante. Sirve para evitar estafas con transferencias y comprobantes falsos (por ejemplo, las apps que imitan a Mercado Pago): si la plata entró de verdad, el comerciante la escucha, y si no suena el aviso, no entrega la mercadería hasta verificar.
 
 ## Datos clave
 - Para quién: comercios (kioscos, almacenes, locales de ropa, bares, peluquerías, etc.) que cobran con Mercado Pago en Argentina.
 - Qué hace: anuncia en voz alta el monto exacto de cada cobro apenas ingresa a la cuenta de Mercado Pago.
-- Requisitos: PC o notebook con Windows, prendida y con internet, y parlantes. Arranca solo con Windows. No requiere hardware nuevo ni depende del celular.
+- Plataformas: PC con Windows y, ahora, app para Android.
+- Requisitos de la versión de PC: PC o notebook con Windows, prendida y con internet, y parlantes. Arranca solo con Windows. No requiere hardware nuevo ni depende del celular.
 - Precio: $150.000 ARS por año (licencia anual, un solo pago por año, sin mensualidades). Incluye instalación asistida, manual y soporte por videollamada.
 - No es un producto oficial ni está afiliado a Mercado Pago ni a Mercado Libre.
 - Autor: Joaquín Papagianacopoulos.
